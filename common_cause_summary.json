@@ -1,0 +1,20 @@
+{
+  "source": "built-in demo incidents",
+  "confidence_threshold": 0.6,
+  "minimum_group_size": 2,
+  "incidents_analyzed": 10,
+  "candidate_groups_found": 1,
+  "groups": [
+    {
+      "candidate_group_id": "CC-001",
+      "predicted_root_cause": "Database Connectivity Failure",
+      "group_size": 7,
+      "suggested_resolution": "Verify database availability, connection strings, network reachability, credentials, and connection-pool limits.",
+      "suggested_team": "Database / DBA Team",
+      "review_status": "Needs human review",
+      "incident_ids": "INC-DEMO-001, INC-DEMO-002, INC-DEMO-003, INC-DEMO-004, INC-DEMO-005, INC-DEMO-006, INC-DEMO-007",
+      "average_confidence": 0.7559
+    }
+  ],
+  "note": "Candidate groups are based on matching model predictions and confidence threshold. They are not proof of a shared real-world cause and require IT review."
+}
